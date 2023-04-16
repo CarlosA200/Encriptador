@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>Encriptación</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="candado.ico">
+  </head>
+
+  <body>
+    <header>
+      <a href="https://www.aluracursos.com/" target="_blank">
+        <img src="alura.png" alt="Logo de alura">
+      </a>
+      <h1 id="title">ENCRIPTAR - DESENCRIPTAR</h1> 
+    </header>
+
+    <main>
+      <div class="input-container">
+        <label for="texto">Texto:</label>
+        <input id="texto" name="texto"></input>
+      </div>
+
+      <div class="radio-container">
+        <input type="radio" id="encriptar" name="accion" value="encriptar" checked>
+        <label for="encriptar">Encriptar</label>
+        <input type="radio" id="desencriptar" name="accion" value="desencriptar">
+        <label for="desencriptar">Desencriptar</label>
+      </div>
+
+      <div class="button-container">
+        <button onclick="realizarAccion()">Realizar acción</button>
+        <button onclick="copiarResultado()">Copiar resultado</button>
+      </div>
+
+      <div class="output-container">
+        <label for="resultado">Resultado:</label>
+        <textarea readonly id="resultado" name="resultado"></textarea>
+      </div>
+    </main>
+    <script src="script.js"></script>
+    <footer>
+      <p>Creada por Carlos Alberto</p>
+    </footer>
+  </body>
+</html>
