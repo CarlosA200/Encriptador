@@ -30,7 +30,6 @@ header {
   }
   
   #title {
-  width: 100%;
   margin-bottom: 1rem;
 	position: absolute;
 	font-size: 3vw; 
@@ -38,7 +37,7 @@ header {
 	color: #2b7a78;
 	margin: 0;
   text-align: center;
-  left: 25vw;
+  left: 50vw;
 
   }
   
